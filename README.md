@@ -1,5 +1,8 @@
 # description for files
 
+- [badCredentials.pickle](./badCredentials.pickle) issue object dumped using pickle
+- [test_bad_credentials.py](./test_bad_credentials.py) test file
+
 # use case
 
 Caching `Issue` object, returned by `pygithub` `get_issues()` API with a classic personal access token,
